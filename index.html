@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafkajuliene</title>
+     <link rel="icon" href="Rafka.jpg" title="" type="" />
+    <style>
+    
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        nav .logo h1 {
+            color: #00ffbf;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        nav .search {
+            display: flex;
+        }
+
+        nav .search input {
+            padding: 5px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        nav .search button {
+            background-color: #00ffbf;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px 30px;
+            background: url('background-pattern.png');
+        }
+
+        .hero .hero-content h2 {
+            font-size: 36px;
+        }
+
+        .hero .hero-content h2 span {
+            color: #00ffbf;
+        }
+
+        .hero .hero-content p {
+            margin: 15px 0;
+        }
+
+        .hero .btn {
+            background-color: #00ffbf;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            color: #00ffbf;
+            margin-right: 10px;
+        }
+
+        .hero-image img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .services {
+            padding: 50px 30px;
+            background-color: #222;
+        }
+
+        .services h2 {
+            text-align: center;
+            color: #00ffbf;
+            margin-bottom: 20px;
+        }
+
+        .services h3 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .card h4 {
+            color: #00ffbf;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+        }
+
+        /* Mobile Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero-image img {
+                width: 100%;
+                max-width: 250px;
+                margin-top: 20px;
+            }
+
+            .services h2, .services h3 {
+                font-size: 24px;
+            }
+
+            .service-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .card {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero .hero-content h2 {
+                font-size: 28px;
+            }
+
+            .hero .hero-content p {
+                font-size: 16px;
+            }
+
+            .services h2, .services h3 {
+                font-size: 20px;
+            }
+
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            
+          
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello,Saya <span>Rafka julian </span></h2>
+                <h3>Calon Fulstack Developer </h3>
+                <p>Hello!,saya Rafka Julian pelajar dari Smk Negeri 1 Kawali yang ingin menjadi Fulstack Developer .</p>
+               
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/rafkajuliann/profilecard/?igsh=MTBkMGN6YXM0YWZ2cA==">Instagram</a>
+                    <a href="https://www.tiktok.com/@rafkaajulian?_t=8qf3FrKhTjc&_r=1">Tiktok</a>
+               
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="rafka.jpg" alt="rafka">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h4>HTML</h4>
+                    <p>Saya saat ini sedang belajar dan mengembangkan keterampilan dalam HTML, dengan fokus pada pembuatan struktur web yang bersih dan semantik. Saya senang bereksperimen dengan teknik baru untuk menciptakan desain web yang responsif dan mudah diakses.</p>
+                </div>
+                <div class="card">
+                    <h4>CSS</h4>
+                    <p>Saya sedang belajar dan terus meningkatkan keterampilan saya dalam CSS, dengan fokus pada pembuatan tata letak yang responsif dan desain yang menarik secara visual. Saya juga tertarik untuk mempelajari teknik-teknik baru untuk memperkaya pengalaman pengguna melalui styling yang efektif</p>
+                </div>
+                <div class="card">
+                    <h4>JAVASCRIPT</h4>
+                    <p>Saya saat ini sedang mempelajari dan memperdalam pemahaman saya tentang JavaScript, dengan fokus pada pengembangan interaksi dinamis di halaman web. Saya menikmati proses belajar cara membuat fitur yang lebih interaktif dan fungsional untuk meningkatkan pengalaman pengguna.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
